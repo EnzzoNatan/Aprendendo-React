@@ -1,5 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import HelloWord from './components/HelloWord'
+//import Frase from './components/Frase'
+
 
 function App() {
 
@@ -13,6 +16,8 @@ function App() {
     <p>Ola, {name}</p>
 
     <img src={url} alt="Imagem aleatoria"/>
+
+    <HelloWord />
 
   </div>
 
